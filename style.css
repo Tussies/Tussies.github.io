@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Cabin-SemiBold', sans-serif;
     src: URL('Cabin-SemiBold.ttf') format('truetype');
-    font-size: 100px;
   }
 
 body {
@@ -10,8 +9,10 @@ body {
 
 h1 {
     font-family: 'Cabin', sans-serif;
+    font-size: 300%;
 }
 
 p {
     font-family: 'Cabin', sans-serif;
+    font-size: 50%;
 }
