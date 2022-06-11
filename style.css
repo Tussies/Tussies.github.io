@@ -24,8 +24,14 @@ p.text {
     grid-row: 2;
 }
 
-.container {
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
