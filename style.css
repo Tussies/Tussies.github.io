@@ -8,7 +8,6 @@
     src: URL('SourceSansPro-Regular.ttf') format('truetype');
 }
 
-
 h1.title {
     font-family: 'Cabin', sans-serif;
     font-size: 72px;
