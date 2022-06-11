@@ -4,6 +4,11 @@
     font-weight: bold;
   }
 
-body {
+h1 {
     font-family: Cabin;
+    font-size: 50;
+}
+p {
+    font-family: Cabin;
+    font-size: 60;
 }
