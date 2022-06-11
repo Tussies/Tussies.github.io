@@ -1,3 +1,9 @@
-text {
-    font-family: 'Cabin', sans-serif;
+@font-face {
+    font-family: Cabin;
+    src: url(Cabin-Medium.ttf);
+    font-weight: bold;
+  }
+
+body {
+    font-family: Cabin
 }
