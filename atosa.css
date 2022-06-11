@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cabin-SemiBold', sans-serif;
-    src: url(Cabin-SemiBold.ttf);
+    src: url('Cabin-SemiBold.ttf');
     font-weight: bold;
   }
 
