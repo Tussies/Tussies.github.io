@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: 'Cabin-SemiBold', sans-serif;
     src: URL('Cabin-SemiBold.ttf') format('truetype');
-  }
+  } */
 
 body {
-    font-family: 'Cabin-SemiBold', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 100;
 }
