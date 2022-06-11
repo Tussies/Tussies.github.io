@@ -3,7 +3,7 @@
     src: URL('Cabin-SemiBold.ttf') format('truetype');
   }
 
-h1 {
+h1.title {
     font-family: 'Cabin', sans-serif;
     font-size: 300% !important;
 }
