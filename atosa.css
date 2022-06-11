@@ -1,14 +1,10 @@
 @font-face {
-    font-family: Cabin;
-    src: url(Cabin-Medium.ttf);
+    font-family: 'Cabin', sans-serif;
+    src: url(Cabin-SemiBold.ttf);
     font-weight: bold;
   }
 
-h1 {
-    font-family: Cabin;
+body {
+    font-family: 'Cabin', sans-serif;
     font-size: 50;
-}
-p {
-    font-family: Cabin;
-    font-size: 60;
 }
