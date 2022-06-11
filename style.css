@@ -11,9 +11,21 @@
 h1.title {
     font-family: 'Cabin', sans-serif;
     font-size: 72px;
+    padding: 10px;
+    margin: 10px;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 p.text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
 }
