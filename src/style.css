@@ -3,14 +3,25 @@
     height: 60px;
     background-color: #1E1C1D;
     display: flex;
-    padding-left: 70%;
+    padding-left: 75%;
     align-items: center;
     flex-direction: row;
 }
 
 .navbar > .links > a {
+    font-family: 'SP-regular';
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #009089;
+}
 
-    font-size: large;
+.navbar > .links > a:hover {
+    font-family: 'SP-regular';
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #10ada5;
 }
 
 .MenuItem {
