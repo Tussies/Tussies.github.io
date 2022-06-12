@@ -9,9 +9,15 @@
 }
 
 .navbar > .links > a {
+
     font-size: large;
 }
 
 .MenuItem {
     text-decoration: red;
 }
+
+@font-face {
+    font-family: SP-regular;
+    src: url('SourceSansPro-Regular.ttf') format('truetype');
+  }
