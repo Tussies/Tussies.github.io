@@ -13,7 +13,7 @@
     text-decoration: none;
     margin: 10px;
     font-size: 20px;
-    color: #009089;
+    color: #17b6a9;
 }
 
 .navbar > .links > a:hover {
@@ -21,7 +21,7 @@
     text-decoration: none;
     margin: 10px;
     font-size: 20px;
-    color: #10ada5;
+    color: rgb(59, 226, 217);
 }
 
 .MenuItem {
