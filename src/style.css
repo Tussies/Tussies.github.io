@@ -71,6 +71,7 @@
     .navbar > .toggleButton > .fa-bars {
         position: relative;
         align-items: center;
+        font-size: 36px;
         justify-content: center;
     }
 }
