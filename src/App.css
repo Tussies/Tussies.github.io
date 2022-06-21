@@ -9,3 +9,13 @@
   box-sizing: border-box;
   background-color: #1E1C1D;
 }
+
+.aboutMe {
+  padding: 100px 410px;
+  text-align: left;
+  color: rgb(131, 203, 186);
+}
+
+.aboutMeDescription{
+  font-size: medium;
+}
