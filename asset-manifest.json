@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tussies.github.io/static/css/main.4dfa2f32.css",
+    "main.js": "/Tussies.github.io/static/js/main.cbd32087.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Tussies.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/SourceSansPro-Regular.ttf": "/Tussies.github.io/static/media/SourceSansPro-Regular.df87f53caf449a3b7572.ttf",
+    "index.html": "/Tussies.github.io/index.html",
+    "main.4dfa2f32.css.map": "/Tussies.github.io/static/css/main.4dfa2f32.css.map",
+    "main.cbd32087.js.map": "/Tussies.github.io/static/js/main.cbd32087.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Tussies.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dfa2f32.css",
+    "static/js/main.cbd32087.js"
+  ]
+}
