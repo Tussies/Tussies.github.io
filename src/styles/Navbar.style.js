@@ -33,17 +33,24 @@ export const NavbarLink = styled(Link)`
     margin-top: 40px;
     text-decoration: none;
     margin-left: 30px;
+    transition: all 0.1s ease 0s;
+
     @media (max-width: 700px) {
         display: none;
+
     }
 
     &:hover {
-        color:#17b6a9;
+        color: #17b6a9;
+    }
+
+    &:focus {
+        color: rgba(259, 146, 90, 0.9);
     }
 `;
 
 export const Hamburger = styled.button`
-    color: aliceblue;
+    color: whitesmoke;
     font-size: 300%;
     cursor: pointer;
     background: none;
@@ -53,6 +60,14 @@ export const Hamburger = styled.button`
 
     @media (min-width: 700px) {
         display: none;
+    }
+
+    &:hover {
+        color: #17b6a9;
+    }
+    
+    &:focus {
+        color: rgba(259, 146, 90, 0.9);
     }
 `
 
@@ -71,5 +86,8 @@ export const NavbarLinkExtended = styled(Link)`
     font-size: x-large;
     margin-top: 40px;
     text-decoration: none;
-`;
 
+    &:active {
+        color: #17b6a9;
+    }    
+`;

@@ -11,7 +11,10 @@
 }
 
 .Title {
-  color: rgb(131, 203, 186);
+  background: -webkit-linear-gradient(top, rgb(76, 254, 212) 75%, rgba(230, 96, 0, 0.9) 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: left;
   font-size: 5vw;
   padding: 6vw 15vw;
@@ -28,8 +31,9 @@
 .ContactDescription {
   color: whitesmoke;
   text-align: left;
-  font-size: 2vw;
-  padding: 60px 300px;
+  font-weight: 100;
+  font-size: 1.3vw;
+  padding: 6vw 15vw;
 }
 
 @media (max-width: 700px) {
@@ -41,7 +45,10 @@
   }
 
   .Title {
-    color: rgb(131, 203, 186);
+    background: -webkit-linear-gradient(top, rgb(36 255 241) 30%, rgba(230, 96, 0, 0.9) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 12vw;
     text-align: left;
     padding: 3vw 6vw;
@@ -53,6 +60,16 @@
     font-size: 20px;
     padding: 60px 30px;
   }
+}
+
+.email {
+  color: #17b6a9;
+  background: none;
+  border: none;
+  font-weight: 100;
+  font-size: 1.3vw;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* .aboutMeDescription{
