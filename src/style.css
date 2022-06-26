@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     height: 60px;
     background: #1E1C1D;
     justify-content: space-between;
@@ -6,13 +6,17 @@
     padding: 30px 70px 0% 0%;
     align-self: center;
     position: relative;
-}
+} */
 
 /* .navbar > .toggleButton > button {
     background-color: transparent;
     border: none;
     cursor: pointer;
 } */
+
+.h1 {
+    color:#17b6a9;
+}
 
 .fa-bars {
     font-size: 20px;
@@ -51,7 +55,7 @@
     src: url('SourceSansPro-Regular.ttf') format('truetype');
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .navbar > .links {
         position: absolute;
         top: 60px;
@@ -74,5 +78,5 @@
         font-size: 36px;
         justify-content: center;
     }
-}
+} */
 

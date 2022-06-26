@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
   return (
-    <div>Under construction</div>
+    <div>
+    <h1>Under construction.</h1>
+  </div>
   )
 }
 
