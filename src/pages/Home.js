@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>Hello, I'm Atosa.</h1>
-      <h3>I’m a second year Software Engineering student studying at
-         Chalmers University of Technology and currently a summer intern at Volvo Group. 
-        Sometimes I create art too. Mostly though, I clown online about what the next 
+      <h1 class="Title">Hello, I'm Atosa.</h1>
+      <h3 class="Description">I’m a second year Software Engineering student studying at
+         Chalmers University of Technology and currently a summer intern at Volvo Group.
+         Sometimes I create art too. Mostly though, I clown online about what the next 
         Taylor Swift re-recorded album might be.</h3>
     </div>
   )
