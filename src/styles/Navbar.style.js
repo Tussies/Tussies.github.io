@@ -6,6 +6,10 @@ export const NavbarContainer = styled.nav`
     height: ${(props) => (props.extendNavbar ? "100vh": "80px")};
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 700px) {
+        height: 80px;
+    }
 `;
 
 export const LeftContainer = styled.div`

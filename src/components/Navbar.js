@@ -8,7 +8,6 @@ import {
   NavbarLink, 
   Hamburger, 
   NavbarLinkExtended} from "../styles/Navbar.style";
-import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -20,7 +19,7 @@ function Navbar() {
       <LeftContainer>
         <NavbarLinkContainer>
           <NavbarLink to="/"> Home </NavbarLink>
-          <NavbarLink to="/Contact"> Contact </NavbarLink>
+          <NavbarLink to="/Contact" > Contact </NavbarLink>
           <Hamburger onClick={() => {
             setExtendNavBar((currentValue => !currentValue));
           }}>
@@ -31,8 +30,12 @@ function Navbar() {
     </NavbarInnerContainer>
     {extendNavbar && (
       <NavbarExtendedContainer>
-      <NavbarLinkExtended to="/"> Home </NavbarLinkExtended>
-      <NavbarLinkExtended to="/Contact"> Contact </NavbarLinkExtended>
+      <NavbarLinkExtended to="/" onClick={() => {
+            setExtendNavBar((currentValue => !currentValue));
+          }}> Home </NavbarLinkExtended>
+      <NavbarLinkExtended to="/Contact" onClick={() => {
+            setExtendNavBar((currentValue => !currentValue));
+          }}> Contact </NavbarLinkExtended>
     </NavbarExtendedContainer>
     )}
   </NavbarContainer>
